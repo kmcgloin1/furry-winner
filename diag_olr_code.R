@@ -4,7 +4,7 @@ require(Hmisc)
 require(reshape2)
 require(GGally)
 
-diag <- read.csv("~/Documents/CPP Grad/SPRING 2020/STA 5900/HW 5/diag_data.csv")
+diag <- read.csv("diag_data.csv")
 
 diag$Damage <- factor(diag$Damage)
 diag$Crop.History <- factor(diag$Crop.History)
